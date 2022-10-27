@@ -4,10 +4,10 @@ import Current from './components/Current';
 import ForeCast from './components/ForeCast';
 import Bgvideo from './components/Bgvideo';
 
-const autoCompleteSuggestURL = "http://api.weatherapi.com/v1/search.json?key=d5d09894860748a4ba785928222110&q=";
+const autoCompleteSuggestURL = "http:s//api.weatherapi.com/v1/search.json?key=d5d09894860748a4ba785928222110&q=";
 
 const weatherURL = 
-(city) => `http://api.weatherapi.com/v1/forecast.json?
+(city) => `https://api.weatherapi.com/v1/forecast.json?
 key=d5d09894860748a4ba785928222110&q=${city}&days=1&aqi=no&alerts=no
 `;
 
