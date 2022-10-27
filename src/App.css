@@ -1,38 +1,63 @@
 .App {
-  text-align: center;
+  color: rgb(0, 255, 94);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html{
+  background-image: url("../public/bg5.jpg");
+  background-repeat:no-repeat; 
+  background-size: cover;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#video
+{
+  z-index: -1;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.citytextbox
+{
+  font-size: 20px;
+  margin-top: 2%;
+  width: 55vw;
+}
+
+.SuggestionWrapper
+{
+  height: 35vh;
+  border: 1px solid #ffffff;
+  overflow-y: scroll;
+}::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+.Suggestion
+{
+  width: 55vw;
+  border: 1px solid #ffffff;
+  background-color: yellowgreen;
+}
+
+.Suggestion:hover
+{
+color: black;
+cursor: pointer;
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
