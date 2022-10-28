@@ -8,7 +8,7 @@ function Current ({current, city})
     return (
     <div className='current'>
 
-    <h4 style={center}> Current Weather  
+    <h4 style={center}> <b>CURRENT WEATHER </b> 
     <br/>
     {city} Weather 
     </h4>

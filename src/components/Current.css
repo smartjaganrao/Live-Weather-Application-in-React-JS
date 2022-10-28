@@ -2,9 +2,10 @@
 {
     background-color: green;
     color: #fff;
-    margin: 10px;
+    margin: 20px;
     padding: 10px;
-    width: 54%;
+    width: 90%;
+    background: rgba(95, 158, 160, 0.534);
 }
 
 .currentBody
